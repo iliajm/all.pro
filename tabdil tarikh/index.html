@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تبدیل تاریخ</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>تبدیل تاریخ میلادی</h1>
+    <input type="date" id="inputDate" />
+    <button onclick="convertDate()">تبدیل</button>
+
+    <div class="result">
+      <p><strong>روز هفته:</strong> <span id="weekday"></span></p>
+      <p><strong>تاریخ شمسی:</strong> <span id="shamsi"></span></p>
+      <p><strong>تاریخ قمری:</strong> <span id="ghamari"></span></p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jalaali-js@1.1.0/dist/jalaali.min.js"></script>
+  <script src="https://unpkg.com/hijri-date/lib/hijri-date.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

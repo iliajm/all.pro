@@ -1,0 +1,26 @@
+body{
+    direction: rtl;
+}
+.all-box{
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+.code-meli{
+    /* margin-right: 4.5rem; */
+    margin-right: 37%;
+    margin-bottom: 2rem;
+    
+}
+.label-code-meli{
+    margin-bottom: 1rem;
+}
+.name-input{
+    margin-right: 37%;
+}
+.label-name{
+    margin-bottom: 1rem;
+}
+.btn-box{
+    margin-right: 46%;
+    /* margin-bottom: 2rem; */
+}
